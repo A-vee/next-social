@@ -28,10 +28,10 @@ const Navbar = () => {
         </Link>
 
         <div className="pl-4 relative mx-auto text-gray-600">
-        <input className="border-2 border-gray-300 bg-white h-8 px-5 pr-16 rounded-lg text-sm focus:outline-none"
+        <input className="border-2 border-gray-300 bg-white text-green-700 h-8 px-5 pr-16 rounded-lg text-sm focus:outline-none"
           type="search" name="search" placeholder="Search..."/>
-        <button type="submit" className="absolute right-0 top-0 mt-[0.4rem] mr-4">
-          <svg className="text-green-700 h-5 w-5 fill-current" 
+        <button type="submit" className="absolute right-0 cursor-pointer top-0 mt-[0.4rem] mr-4">
+          <svg className="text-green-700 cursor-pointer h-5 w-5 fill-current" 
             viewBox="0 0 56.966 56.966"  
             width="512px" height="512px">
             <path
